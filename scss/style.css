@@ -1,0 +1,464 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 350dvh;
+  width: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header{
+  height: 5dvh;
+  background-color:rgb(155, 137, 100);
+ display: flex;
+ justify-content: space-between;
+ padding:0.6rem 2rem 0.6rem 2rem;
+}
+header span{
+  background-color: white;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  padding:5px;
+  font-size: 1rem;
+  font-weight:900;
+  color:rgb(231, 87, 29)
+}
+header a{
+  color:white;
+}
+.pricing-details-acceuil{
+  background-color:rgb(155, 137, 100);
+  height:95dvh;
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+}
+.pricing-title-h1{
+  width: 50%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+  font-family: "jetBrainsMono";
+}
+.pricing-title-h1 h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.pricing-title-h1 span{
+  background-color: white;
+  padding:0 0.4rem 0 0.4rem;
+}
+.btn-pricing-talk{
+  background-color:rgb(24, 23, 23);
+  width: 220px;
+  height: 40px;
+  border-radius:8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-pricing-talk a{
+  text-decoration: none;
+  color:white;
+  text-wrap: balance;
+  font-size: 1.5rem;
+}
+.content-pricing-cards{
+  /* background-color: blueviolet; */
+  width: 80%;
+  height: 400px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  gap:0.8rem;
+}
+.cards-pricing{
+  background-color: aliceblue;
+  height: 350px;
+  width:280px;
+  border-radius: 7px;
+  border:1px solid rgb(61, 57, 57);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap:0.6rem;
+  padding:8px;
+}
+.cards-pricing:nth-child(2){
+  background-color: rgb(231, 87, 29);
+}
+.cards-pricing >span{
+  color:rgb(231, 87, 29);
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.cards-pricing>p{
+ text-align: center;
+ font-weight: 900;
+ font-size: 1.6rem;
+}
+.cards-pricing-info{
+  /* background-color: blueviolet; */
+  height: 200px;
+  display: flex;
+  flex-flow:column;
+  justify-content: center;
+  gap:0.9rem;
+}
+
+.info{
+  /* background-color: rgb(202, 140, 6); */
+  width: 250px;
+  display: flex;
+  gap:0.7rem;
+}
+.info img{
+  background-color: black;
+  border-radius: 50%;
+  width:20px;
+  height: 20px;
+  padding:4px;
+}
+.info> span{
+ text-wrap: pretty;
+ font-weight:500;
+}
+/* .info:nth-child(4){
+  text-decoration:line-through;
+}
+.info:nth-child(5){
+  text-decoration:line-through;
+} */
+
+
+/* deuxieme section */
+.faq-details-acceuil{
+  height:100dvh;
+ background-color: black;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-items: center;
+ gap:0.8rem;
+}
+.faq-details-title,.faq-details-questions{
+  /* background-color: rgb(56, 48, 48); */
+  width:35%;
+  height: 500px;
+  padding: 10px;
+  color:white;
+  display: flex;
+  flex-flow:column;
+  gap:0.8rem;
+  /* background-color: red; */
+}
+.faq-details-title a{
+  color:white;
+}
+.faq-details-questions{
+  /* background-color:rgb(24, 23, 23); */
+  border-radius: 7px;
+  gap:0.8rem;
+  padding:5px;
+}
+.details-questions{
+  background-color: rgb(36, 33, 33);
+  padding:10px 20px 10px 20px;
+  border:2px solid rgb(66, 64, 64);
+  height:70px;
+  border-radius: 7px;
+  overflow-y: hidden;
+  transition:0.4s ease-in-out;
+  display:flex;
+  flex-flow: column;
+  align-items: center;
+  gap:0.8rem;
+  width:90%;
+}
+.details-questions:nth-child(1){
+ height: 70px;
+}
+.details-questions:nth-child(3){
+  height: 70px;
+  
+}
+
+.details-questions:nth-child(4){
+  height: 70px;
+}
+.details-questions:hover{
+  height:200px;
+  overflow-y: visible;
+}
+
+.details-titleIcon-seeMore{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+  /* background-color:black; */
+  height: 50px;
+  width:100%;
+}
+
+/* troisieme section */
+.temoignage-details-acceuil{
+height:150dvh;
+background-color: rgb(172, 129, 173);
+display: flex;
+flex-flow: column;
+align-items: center;
+gap:1rem;
+}
+.temoignage-details-acceuil h1{
+  margin: 2rem auto;
+}
+.temoignage-details-acceuil  h1 span{
+  background-color:white;
+  color:black;
+  padding: 0.3rem;
+}
+.temoignage-resultat-picture{
+  width: 80%;
+  height: 400px;
+}
+.temoignage-resultat-picture{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  /* background-color:yellowgreen; */
+}
+.resultat-picture{
+  width: 200px;
+  height: 400px;
+}
+.resultat-picture img{
+  width: 100%;
+  height: 100%;
+}
+.temoignage-comments-clients{
+  background-color:rgb(24, 23, 23);
+  width: 100%;
+  height: 400px;
+  border-top-left-radius:36px;
+  border-top-right-radius: 36px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.comments-clients{
+  /* background-color: rgb(104, 50, 50); */
+  height:280px;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap:0.9rem;
+}
+.clients{
+  background-color: rgb(61, 57, 57);
+  height: 100px;
+  width: 300px;
+  padding:8px 10px;
+  transform: rotate(-5deg);
+}
+.clients span{
+  background-color: white;
+  color:black;
+}
+.footer-site{
+  background-color:rgb(172, 129, 173);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap:0.5rem;
+  color:black;
+}
+.footer-site-network{
+  /* background-color: black; */
+  width:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:0.6rem;
+}
+.footer-site a{
+  color:black;
+}
+
+/* responsive mobile */
+@media (max-width:480px) {
+  
+body {
+  height:360dvh;
+}
+header{
+  height:10dvh;
+  /* background-color:rgb(155, 137, 100); */
+  /* background-color: red; */
+ padding:0.6rem 2rem 0.6rem 2rem;
+}
+
+  .pricing-details-acceuil{
+    height:180dvh;
+    gap:0.8rem;
+  }
+  .pricing-title-h1{
+    width:90%;
+    font-size: 1rem;
+  }
+  .btn-pricing-talk{
+    background-color:rgb(24, 23, 23);
+    width: 250px;
+    height: 80px;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-pricing-talk a{
+    text-decoration: none;
+    color:white;
+    text-wrap: balance;
+    font-size: 1.5rem;
+    padding:5px 10px;
+  }
+  .content-pricing-cards{
+    width:90%;
+    height:1100px;
+    gap:5px;
+  }
+  .cards-pricing{
+    padding:5px;
+    width:100%;
+  }
+
+  /* deuxieme section */
+  .faq-details-acceuil{
+    height:80dvh;
+   background-color: black;
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   gap:0.8rem;
+  }
+  .faq-details-title{
+    height: 150px;
+  }
+  .faq-details-title,.faq-details-questions{
+    width:90%;
+    gap:0.8rem;
+    /* background-color: red; */
+  }
+  
+  .faq-details-questions{
+    height: 500px;
+  }
+  .details-questions{
+    width:100%;
+  }
+  
+  .details-titleIcon-seeMore h3{
+    font-size:0.9rem;
+  }
+  .details-titleIcon-seeMore img{
+    width:30px;
+    height: 30px;
+  }
+  .details-questions:nth-child(1){
+    height:60px;
+   }
+   .details-questions:nth-child(2){
+    height: 50px;
+   }
+   .details-questions:nth-child(3){
+     height: 60px;
+     
+   }
+   
+   .details-questions:nth-child(4){
+     height: 60px;
+   }
+   .details-questions:hover{
+     height:250px;
+     overflow-y: visible;
+   }
+  /* troisieme section */
+  .temoignage-details-acceuil{
+  height:100dvh;
+  gap:0.8rem;
+  }
+  
+  .temoignage-resultat-picture{
+    width: 90%;
+    height:500px;
+  }
+  .temoignage-resultat-picture{
+    gap:0.6rem;
+    /* background-color:yellowgreen; */
+  }
+  .resultat-picture{
+    width:150px;
+    height: 220px;
+  }
+  .temoignage-comments-clients{
+    height:500px;
+  }
+  
+  .comments-clients{
+    height:400px;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+  }
+  .clients{
+    background-color: rgb(83, 78, 78);
+    height: 100px;
+    width: 300px;
+    padding:8px 10px;
+    transform: rotate(-5deg);
+  }
+  .footer-site{
+    background-color:rgb(172, 129, 173);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    color:black;
+  }
+  .footer-site-network{
+    /* background-color: black; */
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.6rem;
+  }
+}
+/* reste 768px 1024px  */
